@@ -67,13 +67,10 @@ cd interview-coach-skill
 
 Or [download it as a ZIP](https://github.com/noamseg/interview-coach-skill/archive/refs/heads/main.zip) and unzip.
 
-2. Activate the coach by renaming the skill file:
+2. Open the folder in Claude Code.
+`CLAUDE.md` is already included in the repo.
 
-```bash
-mv SKILL.md CLAUDE.md
-```
-
-3. Open the folder in Claude Code and say `kickoff`.
+3. Say `kickoff`.
 
 Requires any paid Claude plan. Also works with Claude Code (terminal), Cursor, or any environment with file system access.
 
@@ -88,19 +85,22 @@ cd interview-coach-skill
 
 Or [download it as a ZIP](https://github.com/noamseg/interview-coach-skill/archive/refs/heads/main.zip) and unzip.
 
-2. Activate the coach by renaming the skill file:
+2. Open the folder in Codex.
+`AGENTS.md` is already included in the repo.
 
-```bash
-mv SKILL.md AGENTS.md
-```
-
-3. Open the folder in Codex and say `kickoff`.
+3. Say `kickoff`.
 
 Requires any paid ChatGPT plan.
 
 ---
 
 For both options, the coach will ask for your resume, target role, and timeline — then build your profile, assess your starting point, and give you a prioritized action plan. Everything saves automatically to `coaching_state.md` so you pick up where you left off next session.
+
+---
+
+## URL Intake
+
+`decode`, `prep`, `research`, and `linkedin` can now work from supported LinkedIn, careers-page, and job-board URLs. When the environment supports browsing, the coach will fetch the source first. When browsing is unavailable or the page is too thin, the coach fails closed and asks you for the missing content instead of guessing.
 
 ---
 
@@ -384,7 +384,9 @@ Choose during `kickoff`. You can switch later.
 
 ```text
 interview-coach-skill/
-├── SKILL.md                            # Core skill — rename to CLAUDE.md to activate
+├── SKILL.md                            # Canonical skill source
+├── CLAUDE.md                           # Claude-facing prompt mirror
+├── AGENTS.md                           # Codex-facing prompt mirror
 ├── README.md                           # This file
 ├── LICENSE                             # MIT License
 ├── coaching_state.md                   # Created on first kickoff (persistent memory, auto-saved)
