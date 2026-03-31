@@ -15,6 +15,7 @@ A lightweight alternative to `prep` for when the candidate wants to understand a
 ### Sequence
 
 1. Ask for company name and the candidate's target role type (if not already in coaching state).
+   If the candidate already provided a careers page, company page, or role URL, use that as the first Tier 1 source instead of starting from a generic search result.
 2. Research publicly available information. Follow the same Company Knowledge Sourcing tiers from `prep` — Tier 1 (verified), Tier 2 (general knowledge), Tier 3 (unknown/say so).
 3. Assess fit against the candidate's profile (from `coaching_state.md` if available, or from what they've told you).
 4. Output the research brief.
@@ -48,7 +49,7 @@ Search for information in this order. Each step builds on the previous ones:
 
 Every company-specific claim in the research output must map to a source tier:
 
-- **Tier 1 — Verified**: Information directly retrieved from the company's own website, careers page, blog, or from the job description/candidate-provided context. Cite the source.
+- **Tier 1 — Verified**: Information directly retrieved from the company's own website, careers page, a provided role URL, blog, or from the job description/candidate-provided context. Cite the source.
 - **Tier 2 — General knowledge**: Widely documented public information about well-known companies (e.g., Amazon's Leadership Principles, Google's Googleyness). Label clearly.
 - **Tier 3 — Unknown**: Information that couldn't be verified. State this explicitly — don't guess.
 
