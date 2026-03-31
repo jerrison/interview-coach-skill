@@ -60,7 +60,7 @@ Before running the full audit, check coaching state:
 
 ### Step 1: Profile Intake
 
-Ask for LinkedIn profile URL or pasted text. If URL provided, ask candidate to paste the relevant sections (the coach can't browse LinkedIn). Accept whatever format they provide — be flexible.
+Ask for the LinkedIn profile URL or pasted text. If a URL is provided, run `references/external-source-intake.md` first. If the environment supports browsing and the source is sufficient, use the fetched profile text directly. If browsing is unavailable or the source is blocked or too thin, ask the candidate to paste the relevant sections instead.
 
 ### Step 2: Context Assembly
 

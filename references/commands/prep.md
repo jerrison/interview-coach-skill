@@ -311,9 +311,9 @@ If `coaching_state.md` shows previous rounds at the same company, this is a cont
 
 ### Interviewer Intelligence
 
-When the candidate provides interviewer LinkedIn URLs or profile links, guide them on what to look for and help them interpret what they find. The coach cannot browse LinkedIn profiles directly — the candidate needs to share the information. This is still one of the highest-leverage prep activities — knowing who's across the table changes story selection, framing, and signal-reading.
+When the candidate provides interviewer LinkedIn URLs or profile links, use `references/external-source-intake.md` to retrieve profile context when the environment supports browsing. If browsing is unavailable or the profile remains blocked, ask the candidate to share the key professional details manually. This is still one of the highest-leverage prep activities — knowing who's across the table changes story selection, framing, and signal-reading.
 
-**Input requirement**: LinkedIn URLs or profile links required — not bare names. If the candidate provides only a name, respond: "A name alone isn't reliable enough for interviewer research — too many false matches. Can you share their LinkedIn URL? Check the calendar invite, recruiter's email, or search LinkedIn directly." If the candidate shares a URL but not the profile content, ask them to share key details: "I can't browse LinkedIn directly. Can you tell me their current title, how long they've been at the company, their career path (previous roles), and any recent posts or articles? I'll use that to shape your prep."
+**Input requirement**: LinkedIn URLs or profile links required — not bare names. If the candidate provides only a name, respond: "A name alone isn't reliable enough for interviewer research — too many false matches. Can you share their LinkedIn URL? Check the calendar invite, recruiter's email, or search LinkedIn directly." If the candidate shares a URL but not the profile content, first attempt external source intake. Only ask them to share key details manually when browsing is unavailable or the retrieved source is insufficient.
 
 **What to look for** (guide the candidate to extract from LinkedIn profiles, public posts, talks, articles):
 
