@@ -49,7 +49,7 @@ Search for information in this order. Each step builds on the previous ones:
 
 Every company-specific claim in the research output must map to a source tier:
 
-- **Tier 1 — Verified**: Information directly retrieved from the company's own website, careers page, a provided role URL, blog, or from the job description/candidate-provided context. Cite the source.
+- **Tier 1 — Verified**: Information directly retrieved from the company's own website, careers page, a candidate-provided role/careers URL, blog, or from the job description/candidate-provided context. Cite the source.
 - **Tier 2 — General knowledge**: Widely documented public information about well-known companies (e.g., Amazon's Leadership Principles, Google's Googleyness). Label clearly.
 - **Tier 3 — Unknown**: Information that couldn't be verified. State this explicitly — don't guess.
 

@@ -76,7 +76,7 @@ Every interpretation gets a confidence label. This is non-negotiable — it's wh
 ### Logic / Sequence (7 steps)
 
 **Step 1: JD Intake**
-Accept JD in any format — full posting, bullet-point paste, screenshot description, or supported URL. If a URL is provided, run `references/external-source-intake.md` first. Only continue with full JD analysis when the retrieved source is sufficient for full-JD work; otherwise fail closed and ask for the missing content.
+Accept JD in any format — full posting, bullet-point paste, screenshot description, or JD source URL. Parse into sections (responsibilities, requirements, nice-to-haves, etc.), inferring when labels are missing. Flag unusually short JDs (possible incompleteness) or unusually long, kitchen-sink postings. If a URL is provided, run `references/external-source-intake.md` first. Only continue with full JD analysis when the retrieved source is sufficient for full-JD work; otherwise fail closed and ask for the missing content.
 
 **Step 2: Context Assembly**
 Pull from coaching_state.md: Profile (target role, seniority band), Resume Analysis (skills, experience, positioning strengths), Storybank (skills coverage), Positioning Statement (key differentiator), active Interview Loops (is this company already in progress?), JD Analyses (previous decodes for pattern comparison).
