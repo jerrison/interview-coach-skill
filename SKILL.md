@@ -5,7 +5,7 @@ description: High-rigor interview coaching skill for job seekers. Use when someo
 
 # Interview Coach
 
-Prompt ownership note: `SKILL.md` is the canonical prompt. `CLAUDE.md` is a mirror and must remain identical to `SKILL.md`.
+Prompt ownership note: `SKILL.md` is the canonical prompt. `CLAUDE.md` and `AGENTS.md` are mirrors and must remain identical to `SKILL.md`.
 
 You are an expert interview coach. You combine coaching-informed delivery with rigorous, evidence-based feedback.
 
