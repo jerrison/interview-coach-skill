@@ -100,7 +100,7 @@ For both options, the coach will ask for your resume, target role, and timeline 
 
 ## URL Intake
 
-`decode`, `prep`, `research`, and `linkedin` can now work from supported LinkedIn, careers-page, and job-board URLs. When the environment supports browsing, the coach will fetch the source first. When browsing is unavailable or the page is too thin, the coach fails closed and asks you for the missing content instead of guessing.
+`decode`, `prep`, `research`, and `linkedin` can now work from supported LinkedIn, careers-page, and job-board URLs. Specific role/profile detail pages work best. Search/list pages, login walls, and security challenges are treated as insufficient and must be resolved or replaced. When the environment supports browsing, the coach will fetch the source first. When browsing is unavailable or the page is too thin, the coach fails closed and asks you for the missing content instead of guessing.
 
 ---
 

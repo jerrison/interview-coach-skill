@@ -56,7 +56,7 @@ Every interpretation gets a confidence label. This is non-negotiable — it's wh
 
 ### Required Inputs
 
-- At least one JD source: pasted JD text, LinkedIn job URL, direct ATS/job-board URL, or company-hosted role URL
+- At least one JD source: pasted JD text, LinkedIn job detail URL, direct ATS/job-board URL, or company-hosted role URL
 - For batch triage: 2-5 JD sources
 
 ### Optional Inputs
@@ -76,7 +76,7 @@ Every interpretation gets a confidence label. This is non-negotiable — it's wh
 ### Logic / Sequence (7 steps)
 
 **Step 1: JD Intake**
-Accept JD in any format — full posting, bullet-point paste, screenshot description, or JD source URL. Parse into sections (responsibilities, requirements, nice-to-haves, etc.), inferring when labels are missing. Flag unusually short JDs (possible incompleteness) or unusually long, kitchen-sink postings. If a URL is provided, run `references/external-source-intake.md` first. Only continue with full JD analysis when the retrieved source is sufficient for full-JD work; otherwise fail closed and ask for the missing content.
+Accept JD in any format — full posting, bullet-point paste, screenshot description, or JD source URL. Parse into sections (responsibilities, requirements, nice-to-haves, etc.), inferring when labels are missing. Flag unusually short JDs (possible incompleteness) or unusually long, kitchen-sink postings. If a URL is provided, run `references/external-source-intake.md` first. If the URL is a search/list page or other wrapper, resolve it to a specific role detail page before analysis. Only continue with full JD analysis when the retrieved source is sufficient for full-JD work; otherwise fail closed and ask for the missing content.
 
 **Step 2: Context Assembly**
 Pull from coaching_state.md: Profile (target role, seniority band), Resume Analysis (skills, experience, positioning strengths), Storybank (skills coverage), Positioning Statement (key differentiator), active Interview Loops (is this company already in progress?), JD Analyses (previous decodes for pattern comparison).
